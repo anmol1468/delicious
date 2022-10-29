@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import Category from './components/Category';
 import Pages from './pages/Pages';
 import { BrowserRouter } from "react-router-dom"
