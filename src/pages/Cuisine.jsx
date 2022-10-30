@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import styled from 'styled-components'
 import {motion} from 'framer-motion'
 import { useNavigate } from "react-router-dom";
@@ -13,7 +13,7 @@ function Cuisine(props) {
   const [cuisine, setCuisine] = useState([]);
 
   useEffect(() => {
-      getCuisine(params.id)
+      getCuisine(params.id) 
     },[params.id])
 
 
