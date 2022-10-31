@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import {motion} from 'framer-motion'
 import { useNavigate } from "react-router-dom";
 
-function Cuisine(props) {
+function Cuisine() {
 
   const params = useParams();
 
